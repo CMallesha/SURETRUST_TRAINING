@@ -1,0 +1,32 @@
+img{
+    position: absolute;
+    z-index: -1;
+    left: 15px;
+    top: 10;
+    opacity: .5;
+}
+
+p{
+    color: rgb(208, 47, 47);
+    width: 30%;
+}
+
+#overFlowCheck{
+    position: absolute;
+    top: 100px;
+    overflow: scroll;
+    border: 1px solid black;
+    width: 1000px;
+    
+}
+
+
+.flexbox{
+    display: flex;
+    background-color: red;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 5px solid #ccf;
+
+}

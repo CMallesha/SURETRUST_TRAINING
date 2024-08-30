@@ -1,0 +1,43 @@
+div{
+    border: 50px solid rgb(22, 72, 199);
+    margin: 50px;
+    padding: 50px;
+    height: 340px;
+    width: 100px;
+    background-color: red;
+    color: black;
+    
+}
+
+ol,li {
+    display: inline;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    border: 5px solid rgb(22, 72, 199);
+    margin: 5px;
+    padding: 5px;
+    height: 34px;
+    width: 10px;
+    background-color: red;
+    color: black;
+}
+
+/* margin : add some value
+apply margin from all the sides 
+
+padding : add some value
+apply padding from all sides
+
+border : add some value
+apply border from all sides
+
+margin-top-buttum-left-right
+
+width
+hegight
+max-width

@@ -1,0 +1,123 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>blood donation</title>
+        <style>
+        body {
+                margin: 0;
+                padding: 0;
+                border-style: outset;          
+        }
+        h1 {background-color: red;
+            text-align: center;}
+        form { text-align: center;
+               background-color: brown;}
+    </style>
+    </head>
+    <body>
+        <h1>Blood donation form</h1>
+        <form>
+            First Name:
+            <input type="text" id="fname" placeholder="first name please"><br>
+            <br>
+
+            Last Name:
+            <input type="text" id="lname" placeholder="last name please"><br>
+            <br>
+
+            Gender:
+            <input type="radio" id="gen"> Male
+            <input type="radio" id="gen"> Female<br> <br>
+
+            Age:
+            <input type="number" id="age" placeholder="age please"><br> <br>
+
+            Date of Donation:
+            <input type="date" id="date" placeholder="date please"><br> <br>
+
+            Blood Group:
+            <select name="blood" id="bloodgroup">
+                <option value="choose">--choose your blood group---</option>
+                <option value="A+">A+</option>
+                <option value="B+">A+</option>
+                <option value="AB+">A+</option>
+                <option value="AB-">A+</option>
+                <option value="O+">A+</option>
+                <option value="O-">A+</option>
+
+            </select>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+    </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>HTML LIST</h1>
+    <HR></HR>
+
+    <h2>UN-ORDERED LIST</h2>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    
+    </ul> <HR></HR>
+    <H2>ORDERED LIST</H2>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li id="check">4</li>
+        <li>5</li>
+    
+    </ol>
+<HR></HR>
+ <H1>HTML BOOKMARKS</H1>
+
+ <p><a href="c10">Jump to chapter 6</a></p>
+ <h2>Chapter 1</h2>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa hic dolorem dolore neque esse eius, ducimus ipsa vero cupiditate non dignissimos quis aliquam est soluta. Unde quasi laudantium voluptatum iste.</p>
+    
+ <h2>Chapter 2</h2>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa hic dolorem dolore neque esse eius, ducimus ipsa vero cupiditate non dignissimos quis aliquam est soluta. Unde quasi laudantium voluptatum iste.</p>
+
+ <h2>Chapter 3</h2>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa hic dolorem dolore neque esse eius, ducimus ipsa vero cupiditate non dignissimos quis aliquam est soluta. Unde quasi laudantium voluptatum iste.</p>
+
+ <h2>Chapter 4</h2>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa hic dolorem dolore neque esse eius, ducimus ipsa vero cupiditate non dignissimos quis aliquam est soluta. Unde quasi laudantium voluptatum iste.</p>
+
+ <h2>Chapter 5</h2>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa hic dolorem dolore neque esse eius, ducimus ipsa vero cupiditate non dignissimos quis aliquam est soluta. Unde quasi laudantium voluptatum iste.</p>
+
+ <h2 id="c10"> Chapter 6</h2>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa hic dolorem dolore neque esse eius, ducimus ipsa vero cupiditate non dignissimos quis aliquam est soluta. Unde quasi laudantium voluptatum iste.</p>
+  
+ <HR></HR>
+
+ <h1 id="forborder">IMAGE TAG</h1>
+<img src="data:image/png;base64,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" alt="link is broken" width="500px">
+
+</body>
+</html>
+
+
+
+food items list
+green----veg
+blue-----non veg

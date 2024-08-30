@@ -1,0 +1,20 @@
+*{
+    background-color: rgb(204, 195, 182);
+}
+
+#c100{
+    color: green;
+
+}
+
+#c200{
+    color: rgb(186, 22, 22);
+}
+
+.veg{
+    background-color: green;
+}
+
+.nonveg{
+    background-color: rgb(180, 13, 44);
+}

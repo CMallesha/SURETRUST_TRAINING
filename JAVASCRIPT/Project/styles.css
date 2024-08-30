@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+
+h1 {
+    color: var(--text-color);
+}
+
+
+#game {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    background-color: var(--game-bg-color);
+    width: 300px;
+    border-radius: 10px;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.number-btn {
+    width: 50px;
+    height: 60px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+
+#theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Light Theme */
+:root {
+    --bg-color: #f0f0f0;
+    --text-color: #b31b1b;
+    --border-color: #ccc;
+    --game-bg-color: #fff;
+}
+
+/* Dark Theme */
+body.dark {
+    --bg-color: #333;
+    --text-color: #b81111;
+    --border-color: #555;
+    --game-bg-color: #444;
+}

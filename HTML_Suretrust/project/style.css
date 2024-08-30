@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --color500: #281154;
+  --color300: #270082;
+  --color600: #1b0058;
+  --red600: #dc0000;
+  --body: #f9f6ff;
+  --max-width: 1200px;
+}
+body {
+  font-weight: 300;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+header {
+  background-color: var(--color300);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 25px;
+  align-items: center;
+}
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+button {
+  padding: 10px 12px;
+  border: none;
+  transition: 0.2s ease-in-out;
+  background-color: red;
+}
+button:hover {
+  transition: 0.1s ease-in-out;
+  opacity: 0.8;
+  color: var(--color300);
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav ul li {
+    border-button: 2px solid #;
+}
+.hero-section {
+  background-image: url(hero_image.png);
+  height: 100vh;
+  display: grid;
+  color: white;
+  place-items: center;
+  text-align: center; 
+  repeat: no-repeat;
+}
+
+.hero-section container{
+  displays: flex;
+  flex-direction: column;
+  gap:25px;
+}
+
+.hero-section h1{
+  font-size:90px;
+}
+
+.hero-section h3{
+  font-size:30px;
+}
+
+.music-section{
+  pading:50px;
+  background-color:var(--color500)
+}
+.music-section .container{
+  displays: flex;
+  flex-direction: column;
+  gap:30px;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.ipad-iphone{
+  margin-top:-400px;
+  position:relative;
+  top:400px;
+}
+
+.primary-btn{
+  background-color:var(--red600);
+  color:white;
+}
+.seceondary-btn{
+  background-color:var(--color300);
+  color:white;
+}
+.about-music{
+  padding-top:580px;
+  display:grid;
+  place-items:center;
+  gap:50px;
+  text-align:center;
+  margin-bottom:50px;
+}
+
+.video-section{
+  background-image:url(video.png);
+  min-height:800px;
+  display:grid;
+  place-items:center;
+  color:white;
+  text-align:center;
+}
+.video-section .container{
+  display:flex;
+  justify-content:center;
+  margin:100px 0;
+  gap:20px;
+}
+
+.video-section , .hero-section{
+  position:relative;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+.gift-section{
+  display:flex;
+  justify-content:center;
+  margin:100px 0;
+  gap:50px;
+}
+.gift-content{
+  /* display:flex; */
+  justify-content:center;
+  gap:20px;
+}
+
+.footer-lower{
+  background-color: #b7aad5;
+  text-align: center;
+}
+
+
+.footer-upper {
+  background-color: #4b09db;
+  color: white;
+  padding: 40px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-links h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}

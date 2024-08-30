@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <h1>Blood Donation Survey</h1>
+</head>
+<body>
+    <form>
+        <label for="fname">Enter your First name:</label>
+        <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
+
+        <label for="lname">Enter your Last name:</label>
+        <input type="text" placeholder="Last name" id="lname" name="lname"><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="sex">Gender:</label>
+        <input type="checkbox" name="male">Male 
+        <input type="checkbox" name="male">female 
+        <input type="checkbox" name="male">Other <br><br>
+
+        <label for="blood" nam="bgroup">Blood Group</label>
+    <select name="blood" id="bgroup">
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="A-">B-</option>
+        <option value="B+">B+</option>
+    </select>
+    <br><br>
+        <label for="donationDate" name="DofD">Date of Donation:</label>
+        <input type="date" id="donationDate" name="donationDate" required><br><br>
+
+        <label for="ph_num">Phone Number:</label>
+        <input type="tel" id="ph_num" name="ph_num" pattern="[0-9]{10}" required><br><br>
+
+        <input type="submit" value="submit">
+      </form>
+</body>
+</html>
